@@ -1,0 +1,64 @@
+.dashboard {
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .dashboard select {
+    display: block;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .office-section {
+    margin-bottom: 40px;
+  }
+  
+  .office-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .unit-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .room-card {
+    background: #f2f2f2;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .room-card h3 {
+    margin-top: 0;
+  }
+  
+  .room-card p {
+    margin: 5px 0;
+  }
+  
+  .bar {
+    background: #f0f0f0;
+    border-radius: 4px;
+    height: 10px;
+    margin-top: 5px;
+    overflow: hidden;
+  }
+  
+  .bar span {
+    display: block;
+    height: 100%;
+    background: #007bff;
+  }
+  .block-office{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
